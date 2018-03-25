@@ -58,7 +58,6 @@ public class SampleAtmosphereApplication {
 		registration.setOrder(Ordered.HIGHEST_PRECEDENCE);
 		return registration;
 	}
-
 	@Configuration
 	static class MvcConfiguration extends WebMvcConfigurerAdapter {
 
@@ -83,4 +82,4 @@ public class SampleAtmosphereApplication {
 		SpringApplication.run(SampleAtmosphereApplication.class, args);
 	}
 
-}
+
